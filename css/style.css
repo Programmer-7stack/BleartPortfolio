@@ -247,6 +247,8 @@ h2::after {
     margin-bottom: 1rem;
 }
 
+
+
 .project-card h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
@@ -468,8 +470,8 @@ h2::after {
 
     #section-title1 {
         position: relative;
-        margin-bottom: 1.5rem; /* Add spacing */
-        top: 0; /* Reset any previous positioning */
+        margin-bottom: 1.5rem; 
+        top: 0; 
     }
 
     .projects-container {
@@ -484,7 +486,13 @@ h2::after {
         max-width: 100%;
     }
 
+    .project-card img {
+        max-height: 100px; 
+        aspect-ratio: 16 / 10;
+    }
+
 }
+
 
 
 
