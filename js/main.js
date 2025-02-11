@@ -67,12 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
             message: document.getElementById('message').value
         };
 
-        // Here you would typically send the form data to a server
-        // For now, we'll just log it to the console
-        console.log('Form submitted:', formData);
         
-        // Clear form
-        contactForm.reset();
         
         // Show success message
         alert('Message sent successfully!');
