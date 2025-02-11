@@ -442,8 +442,6 @@ h2::after {
         left: 1rem;
     }
 
-   
-
     .projects-container {
         grid-template-columns: 1fr;
         padding: 1rem;
@@ -468,7 +466,37 @@ h2::after {
         padding: 0 1rem;
     }
 
+    #section-title1 {
+        position: relative;
+        margin-bottom: 1.5rem; /* Add spacing */
+        top: 0; /* Reset any previous positioning */
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        margin-right: 0;
+        position: relative;
+        
+    }
+
+    .project-card {
+        max-width: 100%;
+    }
+
 }
+
+
+
+#section-title1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: white; /* Adjust color if needed */
+}
+
+
+
 
 /* Animations */
 @keyframes fadeIn {
@@ -484,4 +512,11 @@ h2::after {
 
 .section.active {
     animation: fadeIn 0.5s ease-out;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0 auto;
+
+    right: 2px;
 }
