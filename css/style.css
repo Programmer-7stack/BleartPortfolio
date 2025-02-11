@@ -514,9 +514,3 @@ h2::after {
     animation: fadeIn 0.5s ease-out;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0 auto;
-
-    right: 2px;
-}
