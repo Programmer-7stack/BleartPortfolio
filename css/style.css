@@ -90,7 +90,7 @@ body {
 /* Main Content */
 main {
     margin-left: 80px;
-    margin-right: 80px; /* Added margin to prevent overlap with navigation */
+    margin-right: 80px; 
     position: relative;
 }
 
@@ -219,9 +219,9 @@ h2::after {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     padding: 2rem;
-    max-width: 1200px; /* Added max-width to contain projects */
-    margin: 0 auto; /* Center the container */
-    margin-right: 120px; /* Added margin to prevent overlap with navigation */
+    max-width: 1200px; 
+    margin: 0 auto; 
+    margin-right: 120px; 
 }
 
 .project-card {
@@ -230,8 +230,8 @@ h2::after {
     padding: 1.5rem;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    max-width: 400px; /* Added max-width to limit card size */
-    margin: 0 auto; /* Center the cards */
+    max-width: 500px; 
+    margin: 0 auto;  
 }
 
 .project-card:hover {
