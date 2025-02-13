@@ -8,6 +8,8 @@
     <link rel="Icon" type="" href="">
 </head>
 <body>
+
+   
     <!-- Mobile Menu Button -->
     <button class="mobile-menu-btn">
         <span></span>
@@ -188,6 +190,22 @@
             <div class="section-title">Contact</div>
         </section>
     </main>
+
+ <!-- This is the video -->
+
+<section class="intro-window">
+
+  <div id="package3" class="animation-container animation">
+
+    <video class="desktop-only vid" id="animation-desktop"  muted playsinline webkit-playsinline onended="removeIntroWindow()">
+      <source src="photos/videoB.mp4">
+    </video>
+
+    <video class="mobile-only vid" id="animation-mobile"  muted playsinline webkit-playsinline onended="removeIntroWindow()">
+      <source src="photos/videoB.mp4">
+    </video>
+
+  </div>
 
 
     <script src="js/main.js"></script>
