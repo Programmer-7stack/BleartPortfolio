@@ -2,21 +2,11 @@ window.wpbingo = window.wpbingo || {};
 wpbingo.strings = {};
 
 wpbingo.settings = {
-    cartType: "drawer",
     enableReview: true,
-    enablePreLoading: false,
+    enablePreLoading: true,
     sidebarMultiChoise: true,
     enableQuickView: false,
-    enableGiftCard: false,
     quickViewVariantType: "radio",
-    filter_name_1: "Size",
-    select_filter_1: "label",
-    filter_name_2: "Color",
-    select_filter_2: "color",
-    filter_name_3: "Style",
-    select_filter_3: "image",
-    size_option: 30,
-    style_option: "circle",
 };
 
 wpbingo.loading = `
@@ -27,7 +17,6 @@ wpbingo.loading = `
   </div>
 `;
 
-window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');
 
 // Selektimi i elementeve me verifikim
 const justBlack = document.querySelector("#just-black");
@@ -66,9 +55,9 @@ function removeIntroWindow() {
     }
 }
 
-
 document.addEventListener("DOMContentLoaded", () => {
-    // Mobile Menu
+
+    // Portfolio Mobile Menu
     const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
     const mobileMenu = document.querySelector(".mobile-menu");
     const mobileNavLinks = document.querySelectorAll(".mobile-nav .nav-link");
@@ -120,23 +109,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const initialSection = window.location.hash ? window.location.hash.substring(1) : "home";
     updateActiveSection(initialSection);
 
-    // Contact Form
-    const contactForm = document.getElementById("contact-form");
-
-    if (contactForm) {
-        contactForm.addEventListener("submit", (e) => {
-            e.preventDefault();
-
-            const formData = {
-                name: document.getElementById("name")?.value,
-                email: document.getElementById("email")?.value,
-                subject: document.getElementById("subject")?.value,
-                message: document.getElementById("message")?.value,
-            };
-
-            alert("Message sent successfully!");
-        });
-    }
 
     // Handle window resize
     window.addEventListener("resize", () => {
@@ -147,3 +119,9 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+
+  window.onload = function() {
+        // Reset the form fields when the page loads
+        document.getElementById("form").reset();
+    };

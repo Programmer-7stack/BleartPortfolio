@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="Icon" type="" href="">
+    <link rel="Icon" type="webp" href="photos/Logo1.webp">
 </head>
 <body>
 
@@ -171,7 +171,8 @@
         <section id="contact" class="section">
             <div class="content">
                 <h2>Contact </h2>
-                <form id="contact-form" class="contact-form">
+                <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                  <input type="hidden" name="access_key" value="e045b458-72f1-4847-81c2-2062899a66d9">
                     <div class="form-group">
                         <input type="text" id="name" name="name" required placeholder="Your Name">
                     </div>
@@ -179,11 +180,9 @@
                         <input type="email" id="email" name="email" required placeholder="Your Email">
                     </div>
                     <div class="form-group">
-                        <input type="text" id="subject" name="subject" required placeholder="Subject">
-                    </div>
-                    <div class="form-group">
                         <textarea id="message" name="message" required placeholder="Your Message"></textarea>
                     </div>
+
                     <button type="submit" class="submit-btn">Send Message</button>
                 </form>
             </div>
@@ -209,5 +208,6 @@
 
 
     <script src="js/main.js"></script>
+
 </body>
 </html>
