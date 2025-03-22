@@ -31,14 +31,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem 0;
+    padding: 32px 0;
     z-index: 100;
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: bold;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 
 .logo-link {
@@ -49,7 +49,7 @@ body {
 .social-links {
     display: flex;
     flex-direction: column;
-    gap: 3.5rem;
+    gap: 56px;
 }
 
 .social-link {
@@ -64,20 +64,20 @@ body {
 /* Main Navigation */
 .main-nav {
     position: fixed;
-    right: 2rem;
+    right: 32px;
     top: 50%;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 80px;
     z-index: 100;
 }
 
 .nav-link {
     color: white;
     text-decoration: none;
-    font-size: 0.875rem;
-    padding: 0.5rem 1rem;
+    font-size: 14px;
+    padding: 8px 16px;
     border: 2px solid var(--purple);
     transition: all 0.3s ease;
 }
@@ -98,7 +98,7 @@ main {
 .section {
     min-height: 100vh;
     display: none;
-    padding: 4rem;
+    padding: 64px;
     position: relative;
 }
 
@@ -109,14 +109,14 @@ main {
 .content {
     max-width: 800px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 32px;
 }
 
 .section-title {
     position: fixed;
-    bottom: 2rem;
+    bottom: 32px;
     left: 10%;
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: bold;
     color: white;
     text-transform: uppercase;
@@ -125,8 +125,8 @@ main {
 
 /* Typography */
 h1 {
-    font-size: 4rem;
-    margin-bottom: 16rem;
+    font-size: 64px;
+    margin-bottom: 256px;
     position: relative;
 }
 
@@ -134,15 +134,15 @@ h1::after {
     content: '';
     position: absolute;
     left: 0;
-    bottom: -0.5rem;
+    bottom: -8px;
     width: 400px;
     height: 4px;
     background-color: var(--purple);
 }
 
 h2 {
-    font-size: 3rem;
-    margin-bottom: 2rem;
+    font-size: 48px;
+    margin-bottom: 32px;
     position: relative;
 }
 
@@ -150,7 +150,7 @@ h2::after {
     content: '';
     position: absolute;
     left: 0;
-    bottom: -0.5rem;
+    bottom: -8px;
     width: 270px;
     height: 4px;
     background-color: var(--purple);
@@ -158,18 +158,18 @@ h2::after {
 
 .subtitle {
     color: #666;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 
 /* Buttons */
 .resume-btn {
     display: inline-block;
-    padding: 0.75rem 2rem;
+    padding: 12px 32px;
     border: 1px solid var(--purple);
     color: white;
     text-decoration: none;
     transition: all 0.3s ease;
-    margin-top: 2rem;
+    margin-top: 32px;
 }
 
 .resume-btn:hover {
@@ -183,27 +183,27 @@ h2::after {
 }
 
 .about-text p {
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 /* Skills Section */
 .skills-group {
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
 }
 
 .skills-group h3 {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
+    font-size: 20px;
+    margin-bottom: 16px;
 }
 
 .skills-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 16px;
 }
 
 .skills-list span {
-    padding: 1rem 3rem;
+    padding: 16px 3rem;
     border: 1px solid var(--gray);
     border-radius: 4px;
     transition: background-color 0.3s ease;
@@ -218,8 +218,8 @@ h2::after {
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    padding: 4rem;
+    gap: 32px;
+    padding: 64px;
     max-width: 1200px;
     margin:0 auto; 
     margin-right: 120px; 
@@ -228,7 +228,7 @@ h2::after {
 .project-card {
     background: #222;
     border-radius: 12px;
-    padding: 1.5rem;
+    padding: 24px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     max-width: 500px; 
@@ -245,29 +245,29 @@ h2::after {
     height: 180px;
     object-fit: cover;
     border-radius: 8px;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 
 
 .project-card h3 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 24px;
+    margin-bottom: 8px;
 }
 
 .project-card p {
     color: #bbb;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .project-links {
     display: flex;
-    gap: 1rem;
+    gap: 16px;
     justify-content: center;
 }
 
 .project-btn {
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     background: var(--purple);
     color: white;
     text-decoration: none;
@@ -287,22 +287,22 @@ h2::after {
 /* Contact Form */
 .contact-form {
     max-width: 600px;
-    margin: 2rem auto;
+    margin: 32px auto;
 }
 
 .form-group {
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 
 .form-group input,
 .form-group textarea {
     width: 100%;
-    padding: 1rem;
+    padding: 16px;
     background: #222;
     border: 1px solid var(--gray);
     border-radius: 4px;
     color: white;
-    font-size: 1rem;
+    font-size: 16px;
     transition: border-color 0.3s ease;
 }
 
@@ -319,12 +319,12 @@ h2::after {
 
 .submit-btn {
     width: 100%;
-    padding: 1rem;
+    padding: 16px;
     background: var(--purple);
     color: white;
     border: none;
     border-radius: 4px;
-    font-size: 1rem;
+    font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -337,13 +337,13 @@ h2::after {
 .mobile-menu-btn {
     display: none;
     position: fixed;
-    top: 1rem;
-    right: 1rem;
+    top: 16px;
+    right: 16px;
     z-index: 1000;
     background: none;
     border: none;
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 8px;
 }
 
 .mobile-menu-btn span {
@@ -376,17 +376,17 @@ h2::after {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .mobile-social-links {
     position: absolute;
-    bottom: 2rem;
+    bottom: 32px;
     left: 0;
     right: 0;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 32px;
 }
 
 /* Responsive Design */
@@ -411,20 +411,20 @@ h2::after {
     main {
         margin-left: 0;
         margin-right: 0;
-        padding: 1rem;
+        padding: 16px;
     }
 
     .section {
-        padding: 2rem 1rem;
+        padding: 32px 16px;
     }
 
     .content {
-        padding: 1rem;
+        padding: 16px;
     }
 
     h1 {
-        font-size: 2.5rem;
-        margin-bottom: 8rem;
+        font-size: 40px;
+        margin-bottom: 128px;
     }
 
     h1::after {
@@ -432,7 +432,7 @@ h2::after {
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 32px;
     }
 
     h2::after {
@@ -440,14 +440,14 @@ h2::after {
     }
 
     .section-title {
-        font-size: 2rem;
-        bottom: 1rem;
-        left: 1rem;
+        font-size: 32px;
+        bottom: 16px;
+        left: 16px;
     }
 
     .projects-container {
         grid-template-columns: 1fr;
-        padding: 1rem;
+        padding: 16px;
         margin-right: 0;
         position: absolute;
         bottom: 1px;
@@ -458,26 +458,26 @@ h2::after {
     }
 
     .skills-list span {
-        padding: 0.75rem 1.5rem;
+        padding: 12px 24px;
     }
 
     .about-text {
-        padding: 0 1rem;
+        padding: 0 16px;
     }
 
     .contact-form {
-        padding: 0 1rem;
+        padding: 0 16px;
     }
 
     #section-title1 {
         position: relative;
-        margin-bottom: 1.5rem; 
+        margin-bottom: 24px; 
         top: 0; 
     }
 
     .projects-container {
         grid-template-columns: 1fr;
-        padding: 1rem;
+        padding: 16px;
         margin-right: 0;
         position: relative;
         
@@ -499,8 +499,8 @@ h2::after {
 
 #section-title1 {
     text-align: center;
-    font-size: 2rem;
-    margin-bottom: 2rem;
+    font-size: 32px;
+    margin-bottom: 32px;
     color: white; /* Adjust color if needed */
 }
 
