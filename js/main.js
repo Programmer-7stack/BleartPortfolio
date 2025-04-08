@@ -18,7 +18,6 @@ wpbingo.loading = `
 `;
 
 
-// Selektimi i elementeve me verifikim
 const justBlack = document.querySelector("#just-black");
 const enterSound = document.querySelector("#enter-sound");
 const introWindow = document.querySelector(".intro-window");
@@ -57,7 +56,6 @@ function removeIntroWindow() {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    // Portfolio Mobile Menu
     const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
     const mobileMenu = document.querySelector(".mobile-menu");
     const mobileNavLinks = document.querySelectorAll(".mobile-nav .nav-link");
@@ -79,7 +77,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Navigation
     const navLinks = document.querySelectorAll(".nav-link");
     const sections = document.querySelectorAll(".section");
 
