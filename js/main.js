@@ -110,7 +110,6 @@ document.addEventListener("DOMContentLoaded", () => {
     updateActiveSection(initialSection);
 
 
-    // Handle window resize
     window.addEventListener("resize", () => {
         if (window.innerWidth > 768) {
             if (mobileMenu) mobileMenu.classList.remove("active");

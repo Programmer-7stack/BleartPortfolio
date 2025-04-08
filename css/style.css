@@ -19,7 +19,6 @@ body {
 }
 
 
-/* Side Navigation */
 .side-nav {
     position: fixed;
     left: 0;
@@ -61,7 +60,6 @@ body {
     color: var(--purple);
 }
 
-/* Main Navigation */
 .main-nav {
     position: fixed;
     right: 32px;
@@ -88,7 +86,6 @@ body {
     color: var(--purple);
 }
 
-/* Main Content */
 main {
     margin-left: 80px;
     margin-right: 80px; 
@@ -123,7 +120,6 @@ main {
     pointer-events: none;
 }
 
-/* Typography */
 h1 {
     font-size: 64px;
     margin-bottom: 256px;
@@ -161,7 +157,6 @@ h2::after {
     margin-bottom: 32px;
 }
 
-/* Buttons */
 .resume-btn {
     display: inline-block;
     padding: 12px 32px;
@@ -176,7 +171,6 @@ h2::after {
     background-color: var(--purple);
 }
 
-/* About Section */
 .about-text {
     line-height: 1.6;
     max-width: 600px;
@@ -186,7 +180,6 @@ h2::after {
     margin-bottom: 16px;
 }
 
-/* Skills Section */
 .skills-group {
     margin-bottom: 48px;
 }
@@ -214,7 +207,6 @@ h2::after {
     background-color: var(--purple);
 }
 
-/* Projects Section */
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -284,7 +276,6 @@ h2::after {
     top: 20px;
 }
 
-/* Contact Form */
 .contact-form {
     max-width: 600px;
     margin: 32px auto;
@@ -333,7 +324,6 @@ h2::after {
     background: #4b3ca8;
 }
 
-/* Mobile Menu Button */
 .mobile-menu-btn {
     display: none;
     position: fixed;
@@ -355,7 +345,6 @@ h2::after {
     transition: 0.4s;
 }
 
-/* Mobile Menu */
 .mobile-menu {
     display: none;
     position: fixed;
@@ -389,7 +378,6 @@ h2::after {
     gap: 32px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     body {
         overflow-y: auto;
@@ -507,7 +495,6 @@ h2::after {
 
 
 
-/* Animations */
 @keyframes fadeIn {
     from {
         opacity: 0;
